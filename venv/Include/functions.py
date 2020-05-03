@@ -26,7 +26,7 @@ def FindSeoElements(site):#to be executed on soup object of ALL PAGES
     return ListOfSEOElements
 
 
-
+kkkkj
 def CreateJsonFiles(site,i):
     path='Users\Amir\PycharmProjects\SEOaudit\json-files/'
     site2=site.replace('/:','z')
