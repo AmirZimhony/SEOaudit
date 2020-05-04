@@ -8,21 +8,9 @@ The results are saved in a xlsx (excel) file.
 For practice purposes, I used the script to determine the New York Times main pages SEO values. The main pages I chose are the pages 
  accessible from the navigation bar on the homepage. 
  
+ Example of results:
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ ![sample of results](https://github.com/AmirZimhony/SEOaudit/blob/master/NYtimes%20example.png)
  
  
  
