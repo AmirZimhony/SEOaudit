@@ -46,5 +46,5 @@ for i in range(length):
     worksheet.write(2, i+1, SEOelements[1])
     worksheet.write(3, i+1, SEOelements[2])
     worksheet.write(4, i+1, functions.ReadFromJson(i))
-    time.sleep(1)
+    time.sleep(2)
 workbook.close()
