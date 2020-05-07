@@ -5,6 +5,8 @@ The script checks for and prints the Title, H1 tag, and Meta-Description of each
 In addition, Google Dev Tools "Lighthouse" tool is used to determine the performance score of a page's loading time.
 The results are saved in a xlsx (excel) file.
 
+*NODE.JS must be installed in order for the lighthouse tool to work, you can [download it here](https://nodejs.org/en/download/).
+
 For practice purposes, I used the script to determine the New York Times main pages SEO values. The main pages I chose are the pages 
  accessible from the navigation bar on the homepage. 
  
