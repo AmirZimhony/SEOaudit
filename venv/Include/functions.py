@@ -2,7 +2,7 @@ import subprocess
 import requests
 from bs4 import BeautifulSoup
 import json
-import re
+
 
 def FindSeoElements(site):#to be executed on soup object of ALL PAGES
     response = requests.get(site)
