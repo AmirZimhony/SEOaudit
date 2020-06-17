@@ -17,7 +17,7 @@ For practice purposes, I used the script to determine the New York Times main pa
  
  There are many more possibilities for the information we extract on a webpage's attributes. 
  Once we have made a successful get request, basically we can decide on any html tag info we want to extract from the page. 
- Furthermore, the Lighthouse tool provides us with information regarding a page's Loading performance, accessibility, best practices, additional SEO tests and progressive web app performance. In the json output of the Lighthouse audit there are endless pieces of data,including a more specific de-construction of the "performance" score a page recieves (and is presented in the version of the code in this example).
+ Furthermore, the Lighthouse tool provides us with information regarding a page's Loading performance, accessibility, best practices, additional SEO tests and progressive web app performance. In the json output of the Lighthouse audit there are endless pieces of data, including a more specific de-construction of the "performance" score a page recieves (and is presented in the version of the code in this example).
  
  For any questions, suggestions of improvement or whatever comes to mind, here is my email:
  yesiamamir@gmail.com
