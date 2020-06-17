@@ -14,7 +14,8 @@ worksheet.write(0,0,'Site')
 worksheet.write(1,0,'Title')
 worksheet.write(2,0,'H1')
 worksheet.write(3,0,'Meta-Description')
-worksheet.write(4,0,'Performance')
+worksheet.write(4,0,'Meta-Keywords')
+worksheet.write(5,0,'Performance')
 
 # Defining the url of the site
 base_site = "https://www.nytimes.com"
@@ -47,6 +48,7 @@ for i in range(length):
     worksheet.write(1, i+1, SEOelements[0])
     worksheet.write(2, i+1, SEOelements[1])
     worksheet.write(3, i+1, SEOelements[2])
+    worksheet.write(3, i+1, SEOelements[3])
     worksheet.write(4, i+1, functions.ReadFromJson(i))
     time.sleep(2)#we have this small break because making get requests immediately one after the other might result in an error
 workbook.close()

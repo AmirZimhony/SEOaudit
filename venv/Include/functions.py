@@ -18,11 +18,15 @@ def FindSeoElements(site):#to be executed on soup object of ALL PAGES
     if h1==None:
         h1='none'
     else: h1=h1.text
-    meta = bsElement.find('meta', {'name': 'description', })
-    if meta==None:
-        meta='none'
-    else: meta=meta.get('content')
-    ListOfSEOElements=(title,h1,meta)
+    metaDes = bsElement.find('meta', {'name': 'description', })
+    if metaDes==None:
+        metaDes='none'
+    else: metaDes=metaDes.get('content')
+    metaKeyWords = bsElement.find('meta', {'name': 'keywords', })
+    if metaKeyWords==None:
+        metaKeyWords='none'
+    else: metaKeyWords=metaKeyWords.get('content')
+    ListOfSEOElements=(title,h1,metaDes,metaKeyWords)
     return ListOfSEOElements
 
 
